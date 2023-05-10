@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    
+    display: inline-block;
+    text-align: center;
+    color: rgb(233, 128, 247);
+    background-color:brown;
+    width: 30%;
+    padding: 10px;
+    margin: 40px 430px;
+
+}
+#menu-bar{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    background-color: bisque;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ul{
+    display: flex;
+}
+
+ul li{
+    font-size: 22px;
+    padding: 4px 15px;
+    list-style: none;
+}
+
+#image{
+    height: 600px;
+    margin: 10px 120px;
+    width: 80%;
+    
+    
+}
+
+#text{
+    margin: 10px 120px;
+    text-align: justify;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
